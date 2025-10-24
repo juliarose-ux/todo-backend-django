@@ -82,10 +82,10 @@ import os
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'todo_db',
+        'NAME': 'todo-db',
         'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'PASSWORD': 'Task#123',
+        'HOST': 'todo-db.c7ask0e40tzf.ap-south-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
